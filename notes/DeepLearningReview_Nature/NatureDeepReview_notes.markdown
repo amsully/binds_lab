@@ -80,7 +80,7 @@ __logistic function logic__:
 Many applications use **feed forward neural network architectures**
 
 - these: learn to map a fixed size input to a fixed size output
-		- image -> probability for each of several categories
+	- image -> probability for each of several categories
 
 
 
