@@ -39,7 +39,6 @@ Linear classifiers can only carve input space into simple 'half spaces' separate
 
 ### Multilayer neural networks and backpropagation (Figure 1)
 
-![alt tag](https://github.com/github/amsully/binds_lab/notes/DeepLearningReview_Nature/Figure1.png )
-
+![alt tag](https://github.com/amsully/binds_lab/blob/master/notes/DeepLearningReview_Nature/resources/Figure1.png)
 
 
