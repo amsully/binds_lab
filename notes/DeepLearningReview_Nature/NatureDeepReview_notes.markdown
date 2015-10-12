@@ -3,7 +3,7 @@
 
 Nature Paper - doi:10.1038/nature14539
 
-__Deep Learning__ Representation learning methods with multiple layer, obtained by composing simple but non-linear modules that each transofrm the representation at on elevel into a representation at a higher, slightly more abstract layer.
+__Deep Learning__ Representation learning methods with multiple layer, obtained by composing simple but non-linear modules that each transform the representation at one level into a representation at a higher, slightly more abstract layer.
 
 ### Supervised Learning
 
@@ -43,14 +43,51 @@ Linear classifiers can only carve input space into simple 'half spaces' separate
 
 ![alt tag](https://github.com/amsully/binds_lab/blob/master/notes/DeepLearningReview_Nature/resources/Figure1.png)
 
-a. distortion of inputs to make classes of the data
+**a.** distortion of inputs to make classes of the data
 
-b. chain rule of derivatives
+**b.** chain rule of derivatives
 	- small change of x on y and that of y on z (this can be done with derivative of vectors on Jacobian Matrices).
 
-c. equation used for forward pass on a neural network
+**c.** equation used for forward pass on a neural network
 	- with 2 hidden layers and one output layers
 		- each layer constituting a module through which one can backpropagate gradients
+
+__At Each Layer:__ compute total input z to each unit, which is a weighted sum of the outputs of the units in the layer below.
+
+- Nonlinear function **f(.)** is applied to z to get the output of the unit.
+
+##### Nonlinear Functions Used:
+
+__rectified linear unit__: (ReLU)f(z) = max(0,z)
+
+__hyperbolic tangent__:
+
+	f(z) = (exp(z) - exp(-z)) / (exp(z)+exp(-z))
+
+__logistic function logic__:
+	f(z) = 1 / (1+ exp(-z))
+
+**d.**
+
+(compare outputs w/ correct answer to get error derivatives)
+
+@ each hidden layer we compute error derivatives w/ respect to output which is a weighted sum of the error derivatives w/ respeect to total inputs to the units in the layer above.
+
+**Key Insight:** The derivative of Objective w/ respect to input of a module can be computed by working backwords from the gradient with respect of that module.
+
+- This method is then used repeatedly starting from the top output layer.
+
+Many applications use **feed forward neural network architectures**
+
+	- these: learn to map a fixed size input to a fixed size output
+		- image -> probability for each of several categories
+
+
+
+
+
+
+
 
 
 
