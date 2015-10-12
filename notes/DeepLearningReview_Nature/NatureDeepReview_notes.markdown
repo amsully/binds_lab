@@ -43,4 +43,15 @@ Linear classifiers can only carve input space into simple 'half spaces' separate
 
 ![alt tag](https://github.com/amsully/binds_lab/blob/master/notes/DeepLearningReview_Nature/resources/Figure1.png)
 
+a. distortion of inputs to make classes of the data
+
+b. chain rule of derivatives
+	- small change of x on y and that of y on z (this can be done with derivative of vectors on Jacobian Matrices).
+
+c. equation used for forward pass on a neural network
+	- with 2 hidden layers and one output layers
+		- each layer constituting a module through which one can backpropagate gradients
+
+
+
 
