@@ -121,6 +121,7 @@ ConvNets: designed to process data that come in the form of multiple arrays
 The architecture is a series of stages.
 
 The first few stages are composed of two types of layers:
+
 1. Convolutional layers
 	- organized in feature maps. each unit is connected to local patches in the feature maps of the previous layer through a set of weights called a **filter bank**
 	- result of this local weighted sum -> passed through a non-linearity such as a ReLU
@@ -143,11 +144,14 @@ Neighboring pooling units take input from patches that are shifted by more than 
 Backpropagating gradients through a ConvNet is as simple as through a regular deep network, allowing all the weights in all the filter banks to be trained.
 
 
-
-
-
 2. Pooling layers
 
+(example) In images, local combinations of edges form motifs, motifs assemble into parts, and parts form objects.
+
+convolutional and pooling layers are directly inspired by simple cells and complex cells in visual neuroscience, and the overall architecture is reminiscent of the LGN-V1-V2-V4-IT (?) hierarchy in the visual cortex ventral pathway.
+
+
+### Image Understanding with Deep Convolutional Networks
 
 
 
