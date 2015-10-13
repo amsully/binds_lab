@@ -153,6 +153,29 @@ convolutional and pooling layers are directly inspired by simple cells and compl
 
 ### Image Understanding with Deep Convolutional Networks
 
+Recent ConvNet architectures have 10-20 layers of ReLUs, hundreds of millions of weights, and billions of connections between units 
+
+Two years ago this would take years to train, now it takes a few hours.
+
+### Distributed representations and language processing
+
+- Learning distributed representations enable generalization to new combinations of the values of learned features beyond those seen during training. 
+- Composing layers of representation in a deep net brings the potential for another exponential advantage.
+	- The hidden layers of a multilayer neural network learn to represent the networks inputs in a way that makes it easy to predict the target outputs -- example of word prediction
+
+Issue of representation lies at the heart of the debate between log-inspired and neural-network-inspired paradigms for cognition
+
+- Logic inspired: an instance of a symbol is something for which the only property is that it is either identical or non-identical to other symbol instances. It has no internal structure that is relevant to its use, and to reason with symnols, they must be bound to the vairables in judiciously chosen rules of inference.
+
+- neural-network inspired: use big activity vectors, big weight matrices, and scalar non-linearities to perform the type of fast 'intuitive' inferenct that underpins effortless common sense reasoning.
+
+N-Grams vs Neural Language models
+
+N-Grams count the frequency of words, neural language models associate each word with a vector of real valued features, and semantically related words end up close to each other in the vector space.
+
+### Recurrent Neural Networks
+
+
 
 
 
