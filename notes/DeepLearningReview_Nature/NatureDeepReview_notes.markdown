@@ -173,7 +173,47 @@ N-Grams vs Neural Language models
 
 N-Grams count the frequency of words, neural language models associate each word with a vector of real valued features, and semantically related words end up close to each other in the vector space.
 
+![alt tag](https://github.com/amsully/binds_lab/blob/master/notes/DeepLearningReview_Nature/resources/Figure4.png)
+
 ### Recurrent Neural Networks
+
+When backpropagation was introduced, its most exiting use was for training recurrent neural networks (RNNs).
+
+- RNN's are better for sequential inputs (speech and language)
+
+RNNs are very powerful dynamic systems, but training them has proved to be problematic because the backpropagated gradients either grow or shrink at each time step... so many time steps results in 0 or explosion...
+
+- Has been reigned to be able to work well with predicting next word or character.
+
+- Also being used for foreign language translation
+	- English words to a thought vector which then is initial hidden state of a jointly trained French decoder network which outputs a probability distribution for the first word of the French translation.
+
+- RNNs when unfolded in time, can be seens as very deep feedforward networks in which all the layers share the same weights.
+
+- Although their main purpose is to learn long-term dependencies, theoretical and empirical evidence shows that it is difficult to learn to store information for very long....
+	- To correct: augment the network with an explicit memory
+		- LSTM - Long Short Term Memory network that uses special hidden units, the natural behaviour of which is to remember inputs for a long time. (memory cell acts like an accumulator) - has a connection to itself at the next step with a weight of 1, so it is copied.
+	- Other proposals
+		- neural turing machine - network is augmented by a 'tape-like' memory that the RNN can choose to read or write to.
+		- memory networks - regular network is augmented by a kind of associative memory.
+
+### The Future of Deep Learning
+
+Unsupervised learning had a catalytic effect in reviving interest in deep learning, but has since been overshadowed by the successes of purely supervised learning. Although we have not focused on it in this Review, we expect unsupervised learning to become far more important in the longer term.
+
+Human and animal learning is largely unsupervised: we discover the structure of the world by observing it, not by being told the name of every object.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
