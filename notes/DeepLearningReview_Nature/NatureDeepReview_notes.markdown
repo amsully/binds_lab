@@ -82,6 +82,75 @@ Many applications use **feed forward neural network architectures**
 - these: learn to map a fixed size input to a fixed size output
 	- image -> probability for each of several categories
 
+To go from one layer to the next, a set of units compute a weighted sum of their inputs from the previous layer and pass the result through a non linear function
+
+
+Most popular non-linearfunction is the rectified linear unit (ReLU), which is simply the half-wave rectifier f(z) = max(z,0)
+
+- ReLU typically learns much faster in networks with many layers, allows for training of a deep supervised network without unsupervised pre-training.
+
+One of the fears for neural networks was an infeasibility to extract features. Also with simple stochastic gradient descent, the fear was getting stuck in local minima .. In practice shown not to be a problem
+
+In General, research has shown that these SGD will reside in a saddle point that will generally be of a similar value as other saddle points around... Hence it does not matter much which saddle points the algorithm gets stuck at.
+
+2006 - Canadian Institute for Advanced Research - research paper introduced unsupervised learning procedures that could create layers of feature detectors. -- worked very well with hand written digits.
+
+
+2012 - One particular type of deep , feedforward network was much easier to train and was much better at generalizing
+- Convolutional Neural Network (ConvNet)
+
+
+### Convolution Neural Networks
+
+ConvNets: designed to process data that come in the form of multiple arrays
+- ie: a color image composed of three 2D arrays containing pixel intensities in the three color channels.
+- Data Modalities that are in the form of multiple 2D arrays:
+	- 1D for signals and sequences
+	- 2D for images or audio spectograms
+	- 3D for video or volumetric images
+
+#### 4 Main Ideas behind ConvNets
+
+1. Local Connections
+2. Shared Weights
+3. Pooling
+4. Use of many layers
+
+![alt tag](https://github.com/amsully/binds_lab/blob/master/notes/DeepLearningReview_Nature/resources/Figure2.png)
+
+The architecture is a series of stages.
+
+The first few stages are composed of two types of layers:
+1. Convolutional layers
+	- organized in feature maps. each unit is connected to local patches in the feature maps of the previous layer through a set of weights called a **filter bank**
+	- result of this local weighted sum -> passed through a non-linearity such as a ReLU
+	- All units in a feature map share the same filter bank. 
+	- Different feature maps in a layer use different filter banks.
+		- Reasons:
+		- in array data (img), local groupd os values are often Highly Correlated .. forming distinctive local motifs that are easily detected
+		- Local statistics of images and other signals are invariant to loation
+
+The filtering operation performed by a feature map is a discrete convolution, hence the name.
+
+Because relative positions of the features forming a motif can vary ... reliably detecting the motif can be done by coarse-graining the position of each filter.
+
+A pooling unit computes the maximum of a local patch of units in one feature map (or a few)
+
+Neighboring pooling units take input from patches that are shifted by more than one row or column, thereby reducing the dimension of the representation and creating an invariance to small shifts and distortions.
+
+2-3 of these stages of convolution, non-linearity, and pooling are stacked, followed by more convolutional and fully connected layers.
+
+Backpropagating gradients through a ConvNet is as simple as through a regular deep network, allowing all the weights in all the filter banks to be trained.
+
+
+
+
+
+2. Pooling layers
+
+
+
+
 
 
 
