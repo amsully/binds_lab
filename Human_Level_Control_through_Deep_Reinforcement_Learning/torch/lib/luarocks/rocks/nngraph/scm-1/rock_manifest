@@ -1,0 +1,26 @@
+rock_manifest = {
+   doc = {
+      ['annotation_bg.png'] = "beb3621423db56f1854737aeb5d727d0",
+      ['annotation_fg.png'] = "7d0508c42eb5ded7ee514ddcc2d5832a",
+      ['mlp.png'] = "1a015f06db77bf326894467563c478ca",
+      ['mlp2.png'] = "274dc55efcf466a060d3efa573ff6d00",
+      ['mlp3_backward.png'] = "94131132c98855cf467a62f230cc475b",
+      ['mlp3_forward.png'] = "ea26224fd0538f163a16d198e80562b3",
+      ['mlp4_backward.png'] = "db7ca2ede75ccad26e45b655b216c890",
+      ['mlp4_forward.png'] = "5d6f6d5a3e2b0e4e42e9aa74031ed2f0",
+      ['my_bad_linear_net.png'] = "1214cf7c89ac3821681b0a62311faeac"
+   },
+   lua = {
+      nngraph = {
+         ['ModuleFromCriterion.lua'] = "655d46a3842408077091143464a312f9",
+         ['gmodule.lua'] = "d1b7c458814b88b850d54ae8487ada14",
+         ['graphinspecting.lua'] = "c363f964918766c1fbd190567795d1ed",
+         ['init.lua'] = "eb5ca0d074643a1a01fb2bde36106564",
+         ['nesting.lua'] = "1f53b0f1cdf3f0b8de099c6a1c8e0bd6",
+         ['node.lua'] = "910c48a331a4f15e9051bfd5cd2f384d",
+         ['simple_print.lua'] = "95607b7cd5df73841fbe64a5971eae8b",
+         ['utils.lua'] = "5802cdaad79f316a17220e61d55def69"
+      }
+   },
+   ['nngraph-scm-1.rockspec'] = "21b0a9a02cbd360eeb46fbe76c8d1ff8"
+}

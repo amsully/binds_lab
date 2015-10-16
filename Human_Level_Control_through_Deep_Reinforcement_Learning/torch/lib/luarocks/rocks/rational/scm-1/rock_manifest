@@ -1,0 +1,9 @@
+rock_manifest = {
+   doc = {
+      ['README.md'] = "096ced7081186e50d2d663111ebd01db"
+   },
+   lua = {
+      ['rational.lua'] = "73ed4e4eec51c5293438bf0a1cb92f8b"
+   },
+   ['rational-scm-1.rockspec'] = "f3b9fc256be1670fa07d64b3c3b3b44c"
+}

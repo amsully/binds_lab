@@ -1,0 +1,14 @@
+rock_manifest = {
+   doc = {
+      ['README.md'] = "9caaffdf74442bc3c9ff4554ad845ef5"
+   },
+   ['graph-scm-1.rockspec'] = "279525b3f71b404f6ba3ae1e9dcea01d",
+   lua = {
+      graph = {
+         ['Edge.lua'] = "e2aeee4c99a0fe11b70e4cc27ee76d69",
+         ['Node.lua'] = "5ca814a46166d6cde94c34b2b72da0eb",
+         ['graphviz.lua'] = "9c89b34365b3ea3707f394a50a5be63d",
+         ['init.lua'] = "a11ae9a76c5e3fe3349091a214d5a52e"
+      }
+   }
+}

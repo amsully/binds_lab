@@ -1,0 +1,17 @@
+rock_manifest = {
+   ['argcheck-scm-1.rockspec'] = "03b6eb038e6b3a2de61d8bacefb46681",
+   doc = {
+      ['tree.png'] = "3b7c880efe8fdfc0b6663cf39461e3a2"
+   },
+   lua = {
+      argcheck = {
+         ['doc.lua'] = "c16f08b2dda4b228fda8c94623f4ddcb",
+         ['dump.lua'] = "77423c2b307b6d924feca8bea6406e91",
+         ['env.lua'] = "42175ca00331e042d00f2fa39fbdc84a",
+         ['graph.lua'] = "304324256b0d52b5757ab1eeeeeb987e",
+         ['init.lua'] = "cd71b299dae9f372e4ef116df3b79dc6",
+         ['usage.lua'] = "0d11e4880f68e3548a615c49d5d51cc1",
+         ['utils.lua'] = "618515ef89c09763b03f079e63543688"
+      }
+   }
+}

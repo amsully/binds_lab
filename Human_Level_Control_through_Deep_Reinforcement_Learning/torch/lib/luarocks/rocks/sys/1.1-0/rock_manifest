@@ -1,0 +1,14 @@
+rock_manifest = {
+   doc = {
+      ['README.md'] = "2607d0ca73397f4980ee3935487df05c"
+   },
+   lib = {
+      ['libsys.so'] = "b372a0934408d516c8fe41df439ce5af"
+   },
+   lua = {
+      sys = {
+         ['init.lua'] = "0459858cbf1c8572dd2d02d1d5b6a7b9"
+      }
+   },
+   ['sys-1.1-0.rockspec'] = "56e59b4fe5e706cf102495fd1c19edb3"
+}
