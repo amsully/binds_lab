@@ -13,7 +13,7 @@ n_replay=1
 netfile="\"convnet_atari3\""
 update_freq=4
 actrep=4
-discount=0.99
+discount = .9 # discount=0.99
 seed=1
 learn_start=50000
 pool_frms_type="\"max\""
