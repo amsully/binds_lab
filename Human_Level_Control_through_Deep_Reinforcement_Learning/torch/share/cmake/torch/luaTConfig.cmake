@@ -5,5 +5,5 @@
 # LUAT_FOUND -- set to 1 if found
 
 SET(LUAT_FOUND 1)
-SET(LUAT_INCLUDE_DIR "/home/ams/Dropbox/GitHub/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/include")
-SET(LUAT_LIBRARIES "/home/ams/Dropbox/GitHub/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/lib/libluaT.so")
+SET(LUAT_INCLUDE_DIR "/home/ubuntu/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/include")
+SET(LUAT_LIBRARIES "/home/ubuntu/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/lib/libluaT.so")

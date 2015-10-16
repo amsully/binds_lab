@@ -17,7 +17,7 @@ rock_manifest = {
       ['utility.md'] = "d4a4697c548cce813b62a6a2fcfef007"
    },
    lib = {
-      ['libtorch.so'] = "8cd6dd6033ee1d990f40ecdc8238fb8a"
+      ['libtorch.so'] = "12537f825146a74f0af601c6a20d07ec"
    },
    lua = {
       torch = {

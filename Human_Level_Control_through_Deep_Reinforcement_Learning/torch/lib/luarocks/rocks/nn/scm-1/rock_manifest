@@ -36,7 +36,7 @@ rock_manifest = {
       ['transfer.md'] = "d93ee10055a0cc5f9310493d771abbd4"
    },
    lib = {
-      ['libnn.so'] = "530ce5cfe7ac45c1706c701db1b9ecab"
+      ['libnn.so'] = "a46f8f8065aa1b3116eb91ca663b90f9"
    },
    lua = {
       nn = {

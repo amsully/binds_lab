@@ -1,6 +1,6 @@
-#!/home/ams/Dropbox/GitHub/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/bin/luajit
+#!/home/ubuntu/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/bin/luajit
 
-package.path = [[/home/ams/Dropbox/GitHub/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/share/lua/5.1/?.lua;/home/ams/Dropbox/GitHub/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/share/lua/5.1/?/init.lua;]]..package.path
+package.path = [[/home/ubuntu/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/share/lua/5.1/?.lua;/home/ubuntu/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/share/lua/5.1/?/init.lua;]]..package.path
 
 -- this should be loaded first.
 local cfg = require("luarocks.cfg")

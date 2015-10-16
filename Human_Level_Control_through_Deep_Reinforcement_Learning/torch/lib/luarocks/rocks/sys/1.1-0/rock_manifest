@@ -3,7 +3,7 @@ rock_manifest = {
       ['README.md'] = "2607d0ca73397f4980ee3935487df05c"
    },
    lib = {
-      ['libsys.so'] = "b372a0934408d516c8fe41df439ce5af"
+      ['libsys.so'] = "7e8a7ead67b654a3894cd00ef6f15289"
    },
    lua = {
       sys = {

@@ -3,7 +3,7 @@
 #  CMAKE_INSTALL_PREFIX = PREFIX
 
 # Define Torch basic subpaths
-SET(Torch_INSTALL_PREFIX "/home/ams/Dropbox/GitHub/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch")
+SET(Torch_INSTALL_PREFIX "/home/ubuntu/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch")
 
 SET(Torch_INSTALL_BIN_SUBDIR "bin")
 SET(Torch_INSTALL_MAN_SUBDIR "share/man")

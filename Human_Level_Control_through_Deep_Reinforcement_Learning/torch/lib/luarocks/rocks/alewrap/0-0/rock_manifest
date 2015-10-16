@@ -5,7 +5,7 @@ rock_manifest = {
       ['README.md'] = "7a2ac91ff622fcb67d8fa7e98ecc18db"
    },
    lib = {
-      ['libalewrap.so'] = "2b647d26ca76600ef42be64732fa045e"
+      ['libalewrap.so'] = "c7288c33a889d61c1afb3a1a408330b8"
    },
    lua = {
       alewrap = {

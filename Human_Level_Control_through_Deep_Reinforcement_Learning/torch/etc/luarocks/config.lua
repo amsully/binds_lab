@@ -8,7 +8,7 @@ fs_use_modules = false
 
 rocks_trees = {
    home..[[/.luarocks]],
-   {root="/home/ams/Dropbox/GitHub/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch", bin_dir="/home/ams/Dropbox/GitHub/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/bin", lib_dir="/home/ams/Dropbox/GitHub/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/lib/lua/5.1", lua_dir="/home/ams/Dropbox/GitHub/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/share/lua/5.1"}
+   {root="/home/ubuntu/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch", bin_dir="/home/ubuntu/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/bin", lib_dir="/home/ubuntu/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/lib/lua/5.1", lua_dir="/home/ubuntu/binds_lab/Human_Level_Control_through_Deep_Reinforcement_Learning/torch/share/lua/5.1"}
 }
 
 rocks_servers = {

@@ -8,12 +8,12 @@ rock_manifest = {
       ['simpletransform.md'] = "5ce3361b151858fa6a913d72ec0436f8",
       ['tensorconstruct.md'] = "9ea0fd025a3655601b3ffe378574c9be"
    },
-   ['image-1.1.alpha-0.rockspec'] = "964639c12e07c57901260a546876530f",
+   ['image-1.1.alpha-0.rockspec'] = "3cf2caa50bec43516e312059bad0b05d",
    lib = {
-      ['libimage.so'] = "2ea122ab27fdcd10baed88b51d59b5f4",
-      ['libjpeg.so'] = "fd315baf9a977e71c998243ea48c7a16",
-      ['libpng.so'] = "8330569f5c4e645b0440c8204d162b18",
-      ['libppm.so'] = "6b3450290a8fb7cfdb5413e9a811419e"
+      ['libimage.so'] = "b6c6bcacc6dd8886c39a776993089631",
+      ['libjpeg.so'] = "6b6df22de8028dfe2811a36169201011",
+      ['libpng.so'] = "5e319cce5d29b7725ea1d89b575800cb",
+      ['libppm.so'] = "e6402a287f2b0493679e891806a20c92"
    },
    lua = {
       image = {

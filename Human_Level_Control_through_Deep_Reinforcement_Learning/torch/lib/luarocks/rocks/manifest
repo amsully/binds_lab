@@ -18,21 +18,6 @@ dependencies = {
          }
       }
    },
-   argcheck = {
-      ['scm-1'] = {
-         {
-            constraints = {
-               {
-                  op = ">=",
-                  version = {
-                     5, 1, string = "5.1"
-                  }
-               }
-            },
-            name = "lua"
-         }
-      }
-   },
    cwrap = {
       ['scm-1'] = {
          {
@@ -176,16 +161,6 @@ dependencies = {
                }
             },
             name = "xlua"
-         }, {
-            constraints = {
-               {
-                  op = ">=",
-                  version = {
-                     1, 0, string = "1.0"
-                  }
-               }
-            },
-            name = "rational"
          }
       }
    },
@@ -260,31 +235,6 @@ dependencies = {
          {
             constraints = {},
             name = "luafilesystem"
-         }
-      }
-   },
-   rational = {
-      ['scm-1'] = {
-         {
-            constraints = {
-               {
-                  op = ">=",
-                  version = {
-                     5, 1, string = "5.1"
-                  }
-               }
-            },
-            name = "lua"
-         }, {
-            constraints = {
-               {
-                  op = ">=",
-                  version = {
-                     1, 0, string = "1.0"
-                  }
-               }
-            },
-            name = "argcheck"
          }
       }
    },
@@ -415,27 +365,6 @@ modules = {
    },
    ['alewrap/alewrap.inl'] = {
       "alewrap/0-0"
-   },
-   argcheck = {
-      "argcheck/scm-1"
-   },
-   ['argcheck.doc'] = {
-      "argcheck/scm-1"
-   },
-   ['argcheck.dump'] = {
-      "argcheck/scm-1"
-   },
-   ['argcheck.env'] = {
-      "argcheck/scm-1"
-   },
-   ['argcheck.graph'] = {
-      "argcheck/scm-1"
-   },
-   ['argcheck.usage'] = {
-      "argcheck/scm-1"
-   },
-   ['argcheck.utils'] = {
-      "argcheck/scm-1"
    },
    cwrap = {
       "cwrap/scm-1"
@@ -1178,9 +1107,6 @@ modules = {
    ['pl.xml'] = {
       "penlight/1.3.2-2"
    },
-   rational = {
-      "rational/scm-1"
-   },
    sundown = {
       "sundown/scm-1"
    },
@@ -1288,11 +1214,9 @@ repository = {
             arch = "installed",
             commands = {},
             dependencies = {
-               argcheck = "scm-1",
                cwrap = "scm-1",
                image = "1.1.alpha-0",
                paths = "scm-1",
-               rational = "scm-1",
                sys = "1.1-0",
                torch = "scm-1",
                xitari = "0-0",
@@ -1307,24 +1231,6 @@ repository = {
                ['alewrap.aleffi'] = "alewrap/aleffi.lua",
                ['alewrap/alewrap.inl'] = "alewrap/alewrap.inl",
                libalewrap = "libalewrap.so"
-            }
-         }
-      }
-   },
-   argcheck = {
-      ['scm-1'] = {
-         {
-            arch = "installed",
-            commands = {},
-            dependencies = {},
-            modules = {
-               argcheck = "argcheck/init.lua",
-               ['argcheck.doc'] = "argcheck/doc.lua",
-               ['argcheck.dump'] = "argcheck/dump.lua",
-               ['argcheck.env'] = "argcheck/env.lua",
-               ['argcheck.graph'] = "argcheck/graph.lua",
-               ['argcheck.usage'] = "argcheck/usage.lua",
-               ['argcheck.utils'] = "argcheck/utils.lua"
             }
          }
       }
@@ -1430,10 +1336,8 @@ repository = {
             arch = "installed",
             commands = {},
             dependencies = {
-               argcheck = "scm-1",
                cwrap = "scm-1",
                paths = "scm-1",
-               rational = "scm-1",
                sys = "1.1-0",
                torch = "scm-1",
                xlua = "1.0-0"
@@ -1726,20 +1630,6 @@ repository = {
                ['pl.url'] = "pl/url.lua",
                ['pl.utils'] = "pl/utils.lua",
                ['pl.xml'] = "pl/xml.lua"
-            }
-         }
-      }
-   },
-   rational = {
-      ['scm-1'] = {
-         {
-            arch = "installed",
-            commands = {},
-            dependencies = {
-               argcheck = "scm-1"
-            },
-            modules = {
-               rational = "rational.lua"
             }
          }
       }
