@@ -37,7 +37,7 @@ Next we connect input pixels to a layer of hidden neurons (but not every input p
 
 Instead, we only make connections in small localized regions of the input image.
 
-~~local receptive field~~ for hidden neuron is the region in the input image. Each connection learns a weight and the hidden neuron learns an overall bias as well.
+__local receptive field__ for hidden neuron is the region in the input image. Each connection learns a weight and the hidden neuron learns an overall bias as well.
 
 'learning to analyze its particular local receptive field.'
 
@@ -54,7 +54,7 @@ This shift is called the **stride length** and can be larger than one (Atari dee
 
 #### Shared weights and biases
 
-We are using the ~~same weights~~ and bias for each of the 24x24 neurons.
+We are using the __same weights__ and bias for each of the 24x24 neurons.
 
 ![same weight sum](resources/same_weight_sum.png)
 
@@ -77,7 +77,7 @@ We call the weigts defining the feature map **shared weights**.
 
 Shared bias is **shared bias**
 
-Shared weights and bias define a ~~kernel~~ or ~~filter~~.
+Shared weights and bias define a __kernel__ or __filter__.
 
 #### Tying it together
 
@@ -110,7 +110,7 @@ Faster training allows us to build deep networks using convolutional layers.
 
 #### Pooling layers
 
-ConvNet also contains ~~pooling layers~~.
+ConvNet also contains __pooling layers__.
 
 Task: Simplify the information in the output from the convolutional layer.
 
@@ -142,40 +142,6 @@ Because our example is looking at the 10 digits we have 10 output neurons
 The final layer of connections in the networks is a fully-connected layer.
 
 Taining the network using stochastic gradient descent and backpropagation.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
