@@ -49,6 +49,10 @@ cmd:text()
 local opt = cmd:parse(arg)
 
 --- General setup.
+--- game_env: 
+--- game_actions:
+--- agent: 
+--- opt:
 local game_env, game_actions, agent, opt = setup(opt)
 
 -- override print to always flush the output
@@ -78,6 +82,8 @@ local episode_reward
 local screen, reward, terminal = game_env:getState()
 
 print("Iteration ..", step)
+
+-- Play each step
 while step < opt.steps do
     step = step + 1
     local action_index = agent:perceive(reward, screen, terminal)
